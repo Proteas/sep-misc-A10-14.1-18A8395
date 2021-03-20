@@ -1,0 +1,173 @@
+obj: 'INIT', pid: 01
+    obj: 'A000', pid: 01, owner: 'INIT', type: 'TEXT', perm: r-x, vaddr: 0x00008000, size: 0x007000, phys: 0x887E172000, tz0 offset: 0x09E000
+    obj: 'A001', pid: 01, owner: 'INIT', type: 'DATA', perm: rw-, vaddr: 0x0000F000, size: 0x016000, phys: 0x887E179000, tz0 offset: 0x0A5000
+    obj: 'RARG', pid: 01, owner: 'INIT', type: '_dat', perm: r--, vaddr: 0x00007000, size: 0x001000, phys: 0x887E171000, tz0 offset: 0x09D000
+    obj: 'SEPA', pid: 01, owner: 'INIT', type: '_dat', perm: rw-, vaddr: 0x00029000, size: 0x001000, phys: 0x887E3D0000, tz0 offset: 0x2FC000
+    obj: 'MFST', pid: 01, owner: 'INIT', type: '_dat', perm: rw-, vaddr: 0x0002D000, size: 0x002000, phys: 0x887E3D1000, tz0 offset: 0x2FD000
+    obj: 'shmh', pid: 01, owner: 'INIT', type: '_dat', perm: rw-, vaddr: 0x00031000, size: 0x00A000, phys: 0x080A770000, tz0 offset: --------
+    obj: 'PNIC', pid: 01, owner: 'INIT', type: '_asc', perm: rw-, vaddr: 0x00042000, size: 0x008000, phys: 0x080A771000, tz0 offset: --------
+    obj: 'PDIB', pid: 01, owner: 'INIT', type: '_dat', perm: rw-, vaddr: 0x0004D000, size: 0x001000, phys: 0x887E3D3000, tz0 offset: 0x2FF000
+    obj: 'CRCO', pid: 01, owner: 'INIT', type: '_dat', perm: r--, vaddr: 0x00050000, size: 0x23F000, phys: 0x887E18F000, tz0 offset: 0x0BB000
+    obj: 'O000', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x00293000, size: 0x001000, phys: 0x887E3E8000, tz0 offset: 0x314000
+
+obj: 'SEPD', pid: 02
+    obj: 'B009', pid: 01, owner: 'INIT', type: 'TEXT', perm: r-x, vaddr: 0x0ECB3000, size: 0x00C000, phys: 0x887E18F000, tz0 offset: 0x0BB000
+    obj: 'B010', pid: 01, owner: 'INIT', type: 'DATA', perm: rw-, vaddr: 0x0ECBF000, size: 0x008000, phys: 0x887E19B000, tz0 offset: 0x0C7000
+    obj: 'B011', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x0ECE5000, size: 0x001000, phys: 0x887E3D4000, tz0 offset: 0x300000
+    obj: 'O001', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x0ECE9000, size: 0x001000, phys: 0x887E3E9000, tz0 offset: 0x315000
+    obj: 'B001', pid: 02, owner: 'SEPD', type: 'PRNG', perm: rw-, vaddr: 0x0ECEE000, size: 0x004000, phys: 0x02102BC000, tz0 offset: --------
+    obj: 'B002', pid: 02, owner: 'SEPD', type: 'PRNG', perm: rw-, vaddr: 0x0ECF8000, size: 0x0F1000, phys: 0x02102E8000, tz0 offset: --------
+    obj: 'B000', pid: 02, owner: 'SEPD', type: 'PRNG', perm: rw-, vaddr: 0x0EDEC000, size: 0x001000, phys: 0x02102D0000, tz0 offset: --------
+    obj: 'B003', pid: 02, owner: 'SEPD', type: 'PRNG', perm: rw-, vaddr: 0x0EDF1000, size: 0x004000, phys: 0x020D200000, tz0 offset: --------
+    obj: 'B004', pid: 02, owner: 'SEPD', type: 'PRNG', perm: rw-, vaddr: 0x0EDF9000, size: 0x004000, phys: 0x020DA04000, tz0 offset: --------
+    obj: 'PNIC', pid: 01, owner: 'INIT', type: '_asc', perm: rw-, vaddr: 0x00042000, size: 0x008000, phys: 0x080A771000, tz0 offset: --------
+    obj: 'B005', pid: 02, owner: 'SEPD', type: 'PRNG', perm: rw-, vaddr: 0x0EE0F000, size: 0x004000, phys: 0x020D500000, tz0 offset: --------
+    obj: 'B006', pid: 02, owner: 'SEPD', type: 'PRNG', perm: rw-, vaddr: 0x0EE17000, size: 0x004000, phys: 0x020D680000, tz0 offset: --------
+    obj: 'B007', pid: 02, owner: 'SEPD', type: 'PRNG', perm: rw-, vaddr: 0x0EE1E000, size: 0x001000, phys: 0x020DE40000, tz0 offset: --------
+    obj: 'B008', pid: 02, owner: 'SEPD', type: 'PRNG', perm: rw-, vaddr: 0x0EE21000, size: 0x004000, phys: 0x020DE50000, tz0 offset: --------
+    obj: 'O013', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x0EE29000, size: 0x001000, phys: 0x887E64F000, tz0 offset: 0x57B000
+    obj: 'O015', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x0EE30000, size: 0x001000, phys: 0x887E651000, tz0 offset: 0x57D000
+    obj: 'O016', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x0EE36000, size: 0x001000, phys: 0x887E652000, tz0 offset: 0x57E000
+    obj: 'O017', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x0EE3A000, size: 0x001000, phys: 0x887E653000, tz0 offset: 0x57F000
+    obj: 'O018', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x0EE40000, size: 0x001000, phys: 0x887E654000, tz0 offset: 0x580000
+    obj: 'O019', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x0EE43000, size: 0x001000, phys: 0x887E655000, tz0 offset: 0x581000
+    obj: 'O020', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x0EE49000, size: 0x001000, phys: 0x887E656000, tz0 offset: 0x582000
+    obj: 'O022', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x0EE4C000, size: 0x001000, phys: 0x887E658000, tz0 offset: 0x584000
+    obj: 'SEPA', pid: 01, owner: 'INIT', type: '_dat', perm: rw-, vaddr: 0x00029000, size: 0x001000, phys: 0x887E3D0000, tz0 offset: 0x2FC000
+    obj: 'O023', pid: 06, owner: 'skg ', type: '_ool', perm: rw-, vaddr: 0x010B6000, size: 0x001000, phys: 0x887E659000, tz0 offset: 0x585000
+    obj: 'O025', pid: 02, owner: 'SEPD', type: '_ool', perm: rw-, vaddr: 0x0EE5B000, size: 0x001000, phys: 0x887E65B000, tz0 offset: 0x587000
+    obj: 'O030', pid: 12, owner: 'sks ', type: '_ool', perm: rw-, vaddr: 0x084DD000, size: 0x001000, phys: 0x887E65E000, tz0 offset: 0x58A000
+    obj: 'O048', pid: 13, owner: 'sbio', type: '_ool', perm: rw-, vaddr: 0x00312000, size: 0x001000, phys: 0x887E67C000, tz0 offset: 0x5A8000
+
+obj: 'AESS', pid: 03
+    obj: 'C002', pid: 01, owner: 'INIT', type: 'TEXT', perm: r-x, vaddr: 0x01EFA000, size: 0x008000, phys: 0x887E1A3000, tz0 offset: 0x0CF000
+    obj: 'C003', pid: 01, owner: 'INIT', type: 'DATA', perm: rw-, vaddr: 0x01F02000, size: 0x003000, phys: 0x887E1AB000, tz0 offset: 0x0D7000
+    obj: 'C004', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x01F59000, size: 0x001000, phys: 0x887E3D5000, tz0 offset: 0x301000
+    obj: 'C000', pid: 03, owner: 'AESS', type: 'PRNG', perm: rw-, vaddr: 0x01F5C000, size: 0x004000, phys: 0x020D300000, tz0 offset: --------
+    obj: 'C001', pid: 03, owner: 'AESS', type: 'PRNG', perm: rw-, vaddr: 0x01F67000, size: 0x004000, phys: 0x020D600000, tz0 offset: --------
+    obj: 'O002', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x01F6D000, size: 0x001000, phys: 0x887E3EA000, tz0 offset: 0x316000
+    obj: 'O011', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x01F72000, size: 0x001000, phys: 0x887E64D000, tz0 offset: 0x579000
+    obj: 'O014', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x01F77000, size: 0x001000, phys: 0x887E650000, tz0 offset: 0x57C000
+    obj: 'O023', pid: 06, owner: 'skg ', type: '_ool', perm: rw-, vaddr: 0x010B6000, size: 0x001000, phys: 0x887E659000, tz0 offset: 0x585000
+
+obj: 'dxio', pid: 04
+    obj: 'D002', pid: 01, owner: 'INIT', type: 'TEXT', perm: r-x, vaddr: 0x00A45000, size: 0x007000, phys: 0x887E1AE000, tz0 offset: 0x0DA000
+    obj: 'D003', pid: 01, owner: 'INIT', type: 'DATA', perm: rw-, vaddr: 0x00A4C000, size: 0x002000, phys: 0x887E1B5000, tz0 offset: 0x0E1000
+    obj: 'D004', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x00AA2000, size: 0x001000, phys: 0x887E3D6000, tz0 offset: 0x302000
+    obj: 'D000', pid: 04, owner: 'dxio', type: 'PRNG', perm: rw-, vaddr: 0x00AA7000, size: 0x004000, phys: 0x020DF00000, tz0 offset: --------
+    obj: 'D001', pid: 04, owner: 'dxio', type: 'PRNG', perm: rw-, vaddr: 0x00AAE000, size: 0x004000, phys: 0x020D700000, tz0 offset: --------
+    obj: 'O021', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x00AB4000, size: 0x001000, phys: 0x887E657000, tz0 offset: 0x583000
+    obj: 'O024', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x00ABB000, size: 0x001000, phys: 0x887E65A000, tz0 offset: 0x586000
+    obj: 'O029', pid: 07, owner: 'sars', type: '_ool', perm: rw-, vaddr: 0x04C84000, size: 0x001000, phys: 0x887E65D000, tz0 offset: 0x589000
+
+obj: 'enti', pid: 05
+    obj: 'E000', pid: 01, owner: 'INIT', type: 'TEXT', perm: r-x, vaddr: 0x0644A000, size: 0x017000, phys: 0x887E1B7000, tz0 offset: 0x0E3000
+    obj: 'E001', pid: 01, owner: 'INIT', type: 'DATA', perm: rw-, vaddr: 0x06461000, size: 0x001000, phys: 0x887E1CE000, tz0 offset: 0x0FA000
+    obj: 'E002', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x064F3000, size: 0x001000, phys: 0x887E3D7000, tz0 offset: 0x303000
+    obj: 'O003', pid: 05, owner: 'enti', type: '_hep', perm: rw-, vaddr: 0x064F6000, size: 0x008000, phys: 0x887E3EB000, tz0 offset: 0x317000
+    obj: 'MFST', pid: 01, owner: 'INIT', type: '_dat', perm: rw-, vaddr: 0x0002D000, size: 0x002000, phys: 0x887E3D1000, tz0 offset: 0x2FD000
+    obj: 'O048', pid: 13, owner: 'sbio', type: '_ool', perm: rw-, vaddr: 0x00312000, size: 0x001000, phys: 0x887E67C000, tz0 offset: 0x5A8000
+    obj: 'O050', pid: 05, owner: 'enti', type: 'ANON', perm: rw-, vaddr: 0x0650E000, size: 0x020000, phys: 0x887E68D000, tz0 offset: 0x5B9000
+    obj: 'O049', pid: 13, owner: 'sbio', type: 'ANON', perm: rw-, vaddr: 0x00315000, size: 0x010000, phys: 0x887E67D000, tz0 offset: 0x5A9000
+
+obj: 'skg ', pid: 06
+    obj: 'F000', pid: 01, owner: 'INIT', type: 'TEXT', perm: r-x, vaddr: 0x01065000, size: 0x00A000, phys: 0x887E1CF000, tz0 offset: 0x0FB000
+    obj: 'F001', pid: 01, owner: 'INIT', type: 'DATA', perm: rw-, vaddr: 0x0106F000, size: 0x002000, phys: 0x887E1D9000, tz0 offset: 0x105000
+    obj: 'F002', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x010A3000, size: 0x001000, phys: 0x887E3D8000, tz0 offset: 0x304000
+    obj: 'O004', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x010A7000, size: 0x001000, phys: 0x887E3F3000, tz0 offset: 0x31F000
+    obj: 'O005', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x010AA000, size: 0x001000, phys: 0x887E3F4000, tz0 offset: 0x320000
+    obj: 'O012', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x010B0000, size: 0x001000, phys: 0x887E64E000, tz0 offset: 0x57A000
+    obj: 'O023', pid: 06, owner: 'skg ', type: '_ool', perm: rw-, vaddr: 0x010B6000, size: 0x001000, phys: 0x887E659000, tz0 offset: 0x585000
+    obj: 'O029', pid: 07, owner: 'sars', type: '_ool', perm: rw-, vaddr: 0x04C84000, size: 0x001000, phys: 0x887E65D000, tz0 offset: 0x589000
+    obj: 'O031', pid: 09, owner: 'xART', type: '_ool', perm: rw-, vaddr: 0x0FEC7000, size: 0x001000, phys: 0x887E65F000, tz0 offset: 0x58B000
+    obj: 'O030', pid: 12, owner: 'sks ', type: '_ool', perm: rw-, vaddr: 0x084DD000, size: 0x001000, phys: 0x887E65E000, tz0 offset: 0x58A000
+    obj: 'O037', pid: 11, owner: 'pass', type: '_ool', perm: rw-, vaddr: 0x0D0E0000, size: 0x001000, phys: 0x887E66F000, tz0 offset: 0x59B000
+    obj: 'O048', pid: 13, owner: 'sbio', type: '_ool', perm: rw-, vaddr: 0x00312000, size: 0x001000, phys: 0x887E67C000, tz0 offset: 0x5A8000
+
+obj: 'sars', pid: 07
+    obj: 'G000', pid: 01, owner: 'INIT', type: 'TEXT', perm: r-x, vaddr: 0x04C3A000, size: 0x009000, phys: 0x887E1DB000, tz0 offset: 0x107000
+    obj: 'G001', pid: 01, owner: 'INIT', type: 'DATA', perm: rw-, vaddr: 0x04C43000, size: 0x002000, phys: 0x887E1E4000, tz0 offset: 0x110000
+    obj: 'G002', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x04C6B000, size: 0x001000, phys: 0x887E3D9000, tz0 offset: 0x305000
+    obj: 'PDIB', pid: 01, owner: 'INIT', type: '_dat', perm: rw-, vaddr: 0x0004D000, size: 0x001000, phys: 0x887E3D3000, tz0 offset: 0x2FF000
+    obj: 'O006', pid: 07, owner: 'sars', type: '_hep', perm: rw-, vaddr: 0x04C77000, size: 0x008000, phys: 0x887E3F5000, tz0 offset: 0x321000
+    obj: 'O029', pid: 07, owner: 'sars', type: '_ool', perm: rw-, vaddr: 0x04C84000, size: 0x001000, phys: 0x887E65D000, tz0 offset: 0x589000
+    obj: 'O031', pid: 09, owner: 'xART', type: '_ool', perm: rw-, vaddr: 0x0FEC7000, size: 0x001000, phys: 0x887E65F000, tz0 offset: 0x58B000
+    obj: 'O038', pid: 08, owner: 'ARTM', type: '_ool', perm: rw-, vaddr: 0x03EE6000, size: 0x001000, phys: 0x887E670000, tz0 offset: 0x59C000
+
+obj: 'ARTM', pid: 08
+    obj: 'H000', pid: 01, owner: 'INIT', type: 'TEXT', perm: r-x, vaddr: 0x03EA6000, size: 0x006000, phys: 0x887E1E6000, tz0 offset: 0x112000
+    obj: 'H001', pid: 01, owner: 'INIT', type: 'DATA', perm: rw-, vaddr: 0x03EAC000, size: 0x001000, phys: 0x887E1EC000, tz0 offset: 0x118000
+    obj: 'H002', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x03EDD000, size: 0x001000, phys: 0x887E3DA000, tz0 offset: 0x306000
+    obj: 'O037', pid: 11, owner: 'pass', type: '_ool', perm: rw-, vaddr: 0x0D0E0000, size: 0x001000, phys: 0x887E66F000, tz0 offset: 0x59B000
+    obj: 'O038', pid: 08, owner: 'ARTM', type: '_ool', perm: rw-, vaddr: 0x03EE6000, size: 0x001000, phys: 0x887E670000, tz0 offset: 0x59C000
+
+obj: 'xART', pid: 09
+    obj: 'I000', pid: 01, owner: 'INIT', type: 'TEXT', perm: r-x, vaddr: 0x0FE77000, size: 0x00D000, phys: 0x887E1ED000, tz0 offset: 0x119000
+    obj: 'I001', pid: 01, owner: 'INIT', type: 'DATA', perm: rw-, vaddr: 0x0FE84000, size: 0x038000, phys: 0x887E1FA000, tz0 offset: 0x126000
+    obj: 'I002', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x0FEC2000, size: 0x001000, phys: 0x887E3DB000, tz0 offset: 0x307000
+    obj: 'O031', pid: 09, owner: 'xART', type: '_ool', perm: rw-, vaddr: 0x0FEC7000, size: 0x001000, phys: 0x887E65F000, tz0 offset: 0x58B000
+    obj: 'O027', pid: 02, owner: 'SEPD', type: 'PHYS', perm: rw-, vaddr: 0x0FECC000, size: 0x008000, phys: 0x080A7C0000, tz0 offset: --------
+    obj: 'O026', pid: 02, owner: 'SEPD', type: 'PHYS', perm: rw-, vaddr: 0x0FED6000, size: 0x008000, phys: 0x080A7B8000, tz0 offset: --------
+    obj: 'O030', pid: 12, owner: 'sks ', type: '_ool', perm: rw-, vaddr: 0x084DD000, size: 0x001000, phys: 0x887E65E000, tz0 offset: 0x58A000
+    obj: 'O034', pid: 12, owner: 'sks ', type: '_xrt', perm: rw-, vaddr: 0x084EA000, size: 0x008000, phys: 0x887E665000, tz0 offset: 0x591000
+    obj: 'O047', pid: 10, owner: 'scrd', type: '_ool', perm: rw-, vaddr: 0x054F9000, size: 0x001000, phys: 0x887E67B000, tz0 offset: 0x5A7000
+    obj: 'O046', pid: 10, owner: 'scrd', type: '_xrt', perm: rw-, vaddr: 0x054ED000, size: 0x008000, phys: 0x887E673000, tz0 offset: 0x59F000
+    obj: 'O051', pid: 12, owner: 'sks ', type: '_ool', perm: rw-, vaddr: 0x08522000, size: 0x001000, phys: 0x887E6AD000, tz0 offset: 0x5D9000
+
+obj: 'scrd', pid: 10
+    obj: 'J000', pid: 01, owner: 'INIT', type: 'TEXT', perm: r-x, vaddr: 0x05491000, size: 0x028000, phys: 0x887E232000, tz0 offset: 0x15E000
+    obj: 'J001', pid: 01, owner: 'INIT', type: 'DATA', perm: rw-, vaddr: 0x054B9000, size: 0x008000, phys: 0x887E25A000, tz0 offset: 0x186000
+    obj: 'J002', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x054C9000, size: 0x004000, phys: 0x887E3DC000, tz0 offset: 0x308000
+    obj: 'O007', pid: 10, owner: 'scrd', type: '_hep', perm: rw-, vaddr: 0x054D2000, size: 0x008000, phys: 0x887E3FD000, tz0 offset: 0x329000
+    obj: 'O045', pid: 02, owner: 'SEPD', type: 'PHYS', perm: rw-, vaddr: 0x054DD000, size: 0x004000, phys: 0x087CBAC000, tz0 offset: --------
+    obj: 'O044', pid: 02, owner: 'SEPD', type: 'PHYS', perm: rw-, vaddr: 0x054E5000, size: 0x004000, phys: 0x087C588000, tz0 offset: --------
+    obj: 'O046', pid: 10, owner: 'scrd', type: '_xrt', perm: rw-, vaddr: 0x054ED000, size: 0x008000, phys: 0x887E673000, tz0 offset: 0x59F000
+    obj: 'O047', pid: 10, owner: 'scrd', type: '_ool', perm: rw-, vaddr: 0x054F9000, size: 0x001000, phys: 0x887E67B000, tz0 offset: 0x5A7000
+
+obj: 'pass', pid: 11
+    obj: 'K000', pid: 01, owner: 'INIT', type: 'TEXT', perm: r-x, vaddr: 0x0D0B8000, size: 0x009000, phys: 0x887E262000, tz0 offset: 0x18E000
+    obj: 'K001', pid: 01, owner: 'INIT', type: 'DATA', perm: rw-, vaddr: 0x0D0C1000, size: 0x001000, phys: 0x887E26B000, tz0 offset: 0x197000
+    obj: 'K002', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x0D0D0000, size: 0x001000, phys: 0x887E3E0000, tz0 offset: 0x30C000
+    obj: 'O035', pid: 12, owner: 'sks ', type: 'ANON', perm: rw-, vaddr: 0x084F5000, size: 0x001000, phys: 0x887E66D000, tz0 offset: 0x599000
+    obj: 'O036', pid: 11, owner: 'pass', type: 'ANON', perm: rw-, vaddr: 0x0D0DA000, size: 0x001000, phys: 0x887E66E000, tz0 offset: 0x59A000
+    obj: 'O037', pid: 11, owner: 'pass', type: '_ool', perm: rw-, vaddr: 0x0D0E0000, size: 0x001000, phys: 0x887E66F000, tz0 offset: 0x59B000
+
+obj: 'sks ', pid: 12
+    obj: 'L000', pid: 01, owner: 'INIT', type: 'TEXT', perm: r-x, vaddr: 0x082A0000, size: 0x077000, phys: 0x887E26C000, tz0 offset: 0x198000
+    obj: 'L001', pid: 01, owner: 'INIT', type: 'DATA', perm: rw-, vaddr: 0x08317000, size: 0x002000, phys: 0x887E2E3000, tz0 offset: 0x20F000
+    obj: 'L002', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x08494000, size: 0x002000, phys: 0x887E3E1000, tz0 offset: 0x30D000
+    obj: 'O008', pid: 12, owner: 'sks ', type: '_hep', perm: rw-, vaddr: 0x0849B000, size: 0x040000, phys: 0x887E405000, tz0 offset: 0x331000
+    obj: 'O030', pid: 12, owner: 'sks ', type: '_ool', perm: rw-, vaddr: 0x084DD000, size: 0x001000, phys: 0x887E65E000, tz0 offset: 0x58A000
+    obj: 'O032', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x084E4000, size: 0x001000, phys: 0x887E660000, tz0 offset: 0x58C000
+    obj: 'O034', pid: 12, owner: 'sks ', type: '_xrt', perm: rw-, vaddr: 0x084EA000, size: 0x008000, phys: 0x887E665000, tz0 offset: 0x591000
+    obj: 'O035', pid: 12, owner: 'sks ', type: 'ANON', perm: rw-, vaddr: 0x084F5000, size: 0x001000, phys: 0x887E66D000, tz0 offset: 0x599000
+    obj: 'O036', pid: 11, owner: 'pass', type: 'ANON', perm: rw-, vaddr: 0x0D0DA000, size: 0x001000, phys: 0x887E66E000, tz0 offset: 0x59A000
+    obj: 'O028', pid: 14, owner: 'sse ', type: 'ANON', perm: rw-, vaddr: 0x03C2F000, size: 0x001000, phys: 0x887E65C000, tz0 offset: 0x588000
+    obj: 'O039', pid: 12, owner: 'sks ', type: 'ANON', perm: rw-, vaddr: 0x08504000, size: 0x002000, phys: 0x887E671000, tz0 offset: 0x59D000
+    obj: 'O041', pid: 02, owner: 'SEPD', type: 'PHYS', perm: rw-, vaddr: 0x0850B000, size: 0x008000, phys: 0x080AA7C000, tz0 offset: --------
+    obj: 'O040', pid: 02, owner: 'SEPD', type: 'PHYS', perm: rw-, vaddr: 0x08516000, size: 0x008000, phys: 0x080AA74000, tz0 offset: --------
+    obj: 'O051', pid: 12, owner: 'sks ', type: '_ool', perm: rw-, vaddr: 0x08522000, size: 0x001000, phys: 0x887E6AD000, tz0 offset: 0x5D9000
+    obj: 'O052', pid: 13, owner: 'sbio', type: 'ANON', perm: rw-, vaddr: 0x0032C000, size: 0x001000, phys: 0x887E6AE000, tz0 offset: 0x5DA000
+    obj: 'O053', pid: 12, owner: 'sks ', type: 'ANON', perm: rw-, vaddr: 0x0852D000, size: 0x002000, phys: 0x887E6AF000, tz0 offset: 0x5DB000
+
+obj: 'sbio', pid: 13
+    obj: 'M000', pid: 01, owner: 'INIT', type: 'TEXT', perm: r-x, vaddr: 0x00008000, size: 0x091000, phys: 0x887E2E5000, tz0 offset: 0x211000
+    obj: 'M001', pid: 01, owner: 'INIT', type: 'DATA', perm: rw-, vaddr: 0x00099000, size: 0x023000, phys: 0x887E376000, tz0 offset: 0x2A2000
+    obj: 'M002', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x000F0000, size: 0x003000, phys: 0x887E3E3000, tz0 offset: 0x30F000
+    obj: 'O009', pid: 13, owner: 'sbio', type: '_hep', perm: rw-, vaddr: 0x000F6000, size: 0x200000, phys: 0x887E445000, tz0 offset: 0x371000
+    obj: 'O033', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x002F9000, size: 0x004000, phys: 0x887E661000, tz0 offset: 0x58D000
+    obj: 'O043', pid: 02, owner: 'SEPD', type: 'PHYS', perm: rw-, vaddr: 0x00300000, size: 0x004000, phys: 0x08490A0000, tz0 offset: --------
+    obj: 'O042', pid: 02, owner: 'SEPD', type: 'PHYS', perm: rw-, vaddr: 0x0030B000, size: 0x004000, phys: 0x0848F7C000, tz0 offset: --------
+    obj: 'O048', pid: 13, owner: 'sbio', type: '_ool', perm: rw-, vaddr: 0x00312000, size: 0x001000, phys: 0x887E67C000, tz0 offset: 0x5A8000
+    obj: 'O049', pid: 13, owner: 'sbio', type: 'ANON', perm: rw-, vaddr: 0x00315000, size: 0x010000, phys: 0x887E67D000, tz0 offset: 0x5A9000
+    obj: 'O052', pid: 13, owner: 'sbio', type: 'ANON', perm: rw-, vaddr: 0x0032C000, size: 0x001000, phys: 0x887E6AE000, tz0 offset: 0x5DA000
+    obj: 'O053', pid: 12, owner: 'sks ', type: 'ANON', perm: rw-, vaddr: 0x0852D000, size: 0x002000, phys: 0x887E6AF000, tz0 offset: 0x5DB000
+
+obj: 'sse ', pid: 14
+    obj: 'N000', pid: 01, owner: 'INIT', type: 'TEXT', perm: r-x, vaddr: 0x03AE8000, size: 0x02B000, phys: 0x887E399000, tz0 offset: 0x2C5000
+    obj: 'N001', pid: 01, owner: 'INIT', type: 'DATA', perm: rw-, vaddr: 0x03B13000, size: 0x00A000, phys: 0x887E3C4000, tz0 offset: 0x2F0000
+    obj: 'N002', pid: 01, owner: 'INIT', type: 'STAK', perm: rw-, vaddr: 0x03C20000, size: 0x002000, phys: 0x887E3E6000, tz0 offset: 0x312000
+    obj: 'O010', pid: 14, owner: 'sse ', type: '_hep', perm: rw-, vaddr: 0x03C25000, size: 0x008000, phys: 0x887E645000, tz0 offset: 0x571000
+    obj: 'O028', pid: 14, owner: 'sse ', type: 'ANON', perm: rw-, vaddr: 0x03C2F000, size: 0x001000, phys: 0x887E65C000, tz0 offset: 0x588000
+    obj: 'O039', pid: 12, owner: 'sks ', type: 'ANON', perm: rw-, vaddr: 0x08504000, size: 0x002000, phys: 0x887E671000, tz0 offset: 0x59D000
+
